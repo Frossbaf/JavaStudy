@@ -1,21 +1,21 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Main {
-    public static void main(String[] args) {
-        int sum = 0;
+// class Main {
+//     public static void main(String[] args) {
+//         int sum = 0;
 
-        Scanner input = new Scanner (System.in);
+//         Scanner input = new Scanner (System.in);
 
-        System.out.println("Введите число");
-        int number = input.nextInt();
+//         System.out.println("Введите число");
+//         int number = input.nextInt();
 
-        while (number >= 0) {
-            sum += number;
+//         while (number >= 0) {
+//             sum += number;
 
-            System.out.println("Введите число");
-            number = input.nextInt();
-        }
-        System.out.println("Sum = " + sum);
-        input.close();
-    }
-}
+//             System.out.println("Введите число");
+//             number = input.nextInt();
+//         }
+//         System.out.println("Sum = " + sum);
+//         input.close();
+//     }
+// }
